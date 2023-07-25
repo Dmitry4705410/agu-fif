@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+     /*font-family: 'Russo One', sans-serif;*/
+}
+
+input {outline:none;}
+
+textarea{
+    outline:none;
+    resize: none;
+    overflow : auto;
+    overflow:hidden;
+}
+
+button{outline:none;}
+select{outline:none;}

@@ -1,0 +1,94 @@
+.blockNewFoto{
+    width: 512px;
+    display: block;
+   min-height: 50px;
+    text-align: center;
+    background: #fff;
+    border: #c2c2c2 1px solid;
+    border-radius: 5px;
+    margin: 0 auto;
+   
+}
+.centerNewPhoto{
+    width: 100%;
+    position:absolute;
+    z-index: 2;
+    display: none;
+    top: 80px;
+    
+}
+
+#image_photo{
+    display: none;
+    width:500px;
+    margin: 0 auto;
+}
+.fileNewNovost{
+    display: none;
+}
+.upload_fotos{
+    background: #66a0bb;
+    width: 120px;
+    height: 25px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    line-height:25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 10pt;
+    border: solid 1px #fff;
+    transition: 0.2s;
+    
+}
+.upload_fotos:hover{
+    color:#66a0bb;
+    background: #fff;
+    border: solid 1px #66a0bb;
+}
+.savenovost{
+    border: solid 1px #66a0bb;
+    border-radius: 7px;
+    background: #fff;
+    color:#66a0bb;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 1px 3px 2px 5px;
+    transition: 0.2s;
+   
+}
+.savenovost:hover{
+    background: #s;
+    color: #fff;
+}
+.savenovost_div{
+     display: none;
+    text-align: center;
+}
+.close_addfoto{
+    width: 20px;
+    height: 2px;
+    background: #901d1d;
+    margin-top: 5px;
+    
+}
+
+.close_1{
+     transform: rotate(45deg);
+}
+.close_2{
+     transform: rotate(-45deg);
+    margin-top: -2px;
+}
+.close_block{
+    width: 20px;
+    height: 14px;
+    padding-top: 4px;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+   
+
+}

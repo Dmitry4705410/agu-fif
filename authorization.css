@@ -1,0 +1,99 @@
+.name-vhod{
+    font-family: 'Russo One', sans-serif;
+    font-size: 22pt;
+    margin-top: 90px;
+    text-align: center;
+}
+.vhod-block{
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 16.2px 1.8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.input {
+  border-width: 1px;
+  border-color: rgb(178, 177, 177);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  height: 29px;
+    margin-bottom: 15px;
+    font-size: 1.64vh;
+    color: rgba(85, 82, 82, 0.8);
+    line-height: 1.2;
+    text-indent: 5px;
+}
+.login-input{
+    margin-top: 10px;
+}
+.button-vhod{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+.submit {
+  border-radius: 7px;
+  background-color: rgb(102, 160, 187);
+    border: rgb(102, 160, 187) solid 1px;
+  box-shadow: 0px 0px 5.6px 1.4px rgba(0, 0, 0, 0.1);
+  width: 106px;
+  height: 21px;
+    line-height: 19px;
+    
+    -webkit- font-size: 1.84vh;
+   
+  color: rgb(255, 255, 255);
+ 
+  text-align: center;
+  -moz-transform: matrix( 0.96985449151416,0,0,0.97712467871216,0,0);
+  -webkit-transform: matrix( 0.96985449151416,0,0,0.97712467871216,0,0);
+  -ms-transform: matrix( 0.96985449151416,0,0,0.97712467871216,0,0);
+  margin-bottom: 35px;
+    transition: 0.3s;
+}
+.submit:hover{
+    color: #66a0bb;
+    background: #fff;    
+}
+.eror{
+    color: red;
+    font-size: 9pt;
+    text-align: center;
+    padding-top: 10px;
+}
+.submit-vhod{
+    width: 40%;
+}
+.submit-recover{
+    width: 47.5%;
+}
+@media screen and (max-width:1200px) {
+    .vhod-block{
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    .vhod-block{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .vhod-block{
+        width: 80%;
+    }
+    
+}
+  
+ 
+
+

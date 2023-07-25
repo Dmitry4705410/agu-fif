@@ -1,0 +1,64 @@
+.slaider{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 16.2px 1.8px rgba(0, 0, 0, 0.1);
+    
+}
+.slaider-img{
+    display: flex;
+     
+}
+.block-slaider{
+    min-width: 100%;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-bottom: -5px;
+    
+}
+.img-slaider-a{
+    width: 100%;
+    
+    
+}
+
+.cnop-slaid{
+    display: none;
+    position: absolute;
+    height: 100%;   
+    width: 15%;
+    text-align: center;
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cnop-slaid svg{
+  position: relative;
+    top: calc( 50% - 20px )
+}
+.cnop-rigth{
+right: 0;
+}
+.cnop-slaid:hover{
+    opacity: 1;
+}
+.slaider:hover .cnop-slaid{
+    display: block;
+}
+#slider_one_img{
+    margin-left: -100%;
+}
+@media screen and (max-width:1115px) {
+    .slaider{
+	width: 90%;
+}
+}
+@media screen and (max-width:1030px) {
+    .slaider{
+    width: 95%;  
+}
+}
+
